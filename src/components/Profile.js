@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Profile() {
-  const [profile, setProfile] = useState({
+  const profile={
     name: "Priya Patil",
     email: "priyapatil@gmail.com",
     phone: "+91 987 654 3210",
@@ -11,7 +11,7 @@ export default function Profile() {
     pincode: "410507",
     state: "Maharashtra",
     avatar: "https://randomuser.me/api/portraits/women/1.jpg"
-  });
+  };
 
   return (
     <div className="screen">
